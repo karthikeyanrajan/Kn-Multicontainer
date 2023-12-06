@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: server
-          image: stylerhun/multi-server
+          image: karthikeyanrm/kn-server:01
           ports:
             - containerPort: 5000
           env:
